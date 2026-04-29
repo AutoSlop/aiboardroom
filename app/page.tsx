@@ -26,7 +26,7 @@ function Navbar() {
             href="#contacto"
             className="bg-primary text-white px-5 py-2.5 rounded-full hover:bg-primary/90 transition font-medium"
           >
-            Request a workshop
+            Book a Consultation
           </a>
         </div>
       </div>
@@ -41,25 +41,26 @@ function Hero() {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary text-sm font-medium px-4 py-1.5 rounded-full mb-8">
             <span className="w-2 h-2 bg-primary rounded-full" />
-            Strategic AI consulting for enterprise leaders
+            AI strategy and transformation for enterprises
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
-            AI Strategy for{" "}
+            AI Will Reshape Your{" "}
             <span className="text-primary">
-              Enterprise Leaders.
+              Business. Lead the Change.
             </span>
           </h1>
           <p className="text-lg md:text-xl text-foreground/70 leading-relaxed mb-10 max-w-2xl">
-            We help executive teams understand where AI creates risk, unlocks
-            growth, and demands action — with a clear roadmap for the next 90
-            days, focused on business decisions, not technical noise.
+            AI Boardroom helps executive teams understand where AI will
+            transform their business model, identify the highest-value
+            opportunities, align leadership around priorities, and define a
+            practical roadmap — in weeks, not months.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#contacto"
               className="inline-flex items-center justify-center bg-primary text-white font-semibold px-8 py-4 rounded-full hover:bg-primary/90 transition text-lg"
             >
-              Request executive workshop
+              Book an Executive Consultation
             </a>
             <a
               href="#proceso"
@@ -80,35 +81,35 @@ function ProblemaOportunidad() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            The problem isn&apos;t technology.
+            AI is transforming every industry.
             <br />
-            <span className="text-primary">It&apos;s not having a clear strategy.</span>
+            <span className="text-primary">Your leadership team needs a clear plan.</span>
           </h2>
           <p className="text-lg text-foreground/70 leading-relaxed">
-            Executive teams face a critical dilemma: AI is advancing faster than
-            their ability to make informed decisions. Without a clear roadmap,
-            the risk isn&apos;t falling behind — it&apos;s investing poorly.
+            AI Boardroom helps executive teams understand where AI will reshape
+            their business, identify high-value opportunities, align leadership
+            around what matters, and define a practical roadmap to act on.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {[
             {
               icon: "\u26A0",
-              title: "Competitive risk",
+              title: "Strategic clarity",
               description:
-                "Competitors are already deploying AI across operations, customer experience, and decision-making. Every quarter without a strategy widens the gap.",
+                "Most enterprises know AI matters but lack a clear view of where it creates real value. We cut through the noise and focus your leadership on the decisions that matter most.",
             },
             {
               icon: "\u25CE",
-              title: "Concrete opportunity",
+              title: "High-value opportunities",
               description:
-                "AI can reduce operating costs by 15-30%, improve customer retention, and accelerate processes that currently take weeks.",
+                "AI can transform operations, customer experience, and entire business models. We help you identify and prioritize the opportunities with the greatest enterprise-wide impact.",
             },
             {
               icon: "\u2192",
-              title: "Priority decisions",
+              title: "Leadership alignment",
               description:
-                "In the next 90 days, your executive team must define which use cases to prioritize, which capabilities to build, and where not to invest.",
+                "Successful AI transformation requires your executive team to be aligned on priorities, investment, and timelines. We make that alignment happen — fast.",
             },
           ].map((item) => (
             <div
@@ -138,36 +139,36 @@ function Servicios() {
       number: "01",
       title: "Executive AI Strategy Workshop",
       description:
-        "An intensive half-day session with your executive team. We analyze the AI landscape relevant to your industry, identify concrete opportunities, and prioritize initiatives by impact and feasibility.",
-      tags: ["Cross-industry", "Half day", "Executive team"],
+        "An intensive session with your leadership team to assess the AI landscape, identify the highest-impact opportunities, and align on strategic priorities. Designed for enterprise executives who need clarity, not complexity.",
+      tags: ["Executive team", "Half day", "Cross-industry"],
     },
     {
       number: "02",
-      title: "Competitive AI Exposure Assessment",
+      title: "AI Opportunity Assessment",
       description:
-        "A deep evaluation of how AI is transforming your specific market segment. We map what competitors are doing, where vulnerabilities lie, and which moves are urgent.",
-      tags: ["Competitive analysis", "Benchmarking"],
+        "A structured evaluation of where AI can create the most value across your organization. We analyze your operations, competitive position, and market dynamics to surface the opportunities worth pursuing.",
+      tags: ["Opportunity mapping", "Enterprise-wide"],
     },
     {
       number: "03",
-      title: "90-Day Executive Roadmap",
+      title: "90-Day Transformation Roadmap",
       description:
-        "A concrete action plan with clear priorities, defined owners, success metrics, and estimated budget. Designed to be presented and approved by the board.",
+        "A concrete, board-ready action plan with prioritized initiatives, defined owners, success metrics, and investment estimates. Built to move your organization from strategy to execution in 90 days.",
       tags: ["Actionable", "Board-ready"],
     },
     {
       number: "04",
-      title: "Use Case Prioritization",
+      title: "Leadership Alignment Sessions",
       description:
-        "Comparative analysis of the leading AI use cases across your industry. Includes estimated ROI, implementation complexity, and relevance to your organization.",
-      tags: ["Use cases", "ROI"],
+        "Facilitated sessions that bring your C-suite and senior leaders into alignment on AI priorities, investment decisions, and organizational readiness. We ensure your leadership team moves forward together.",
+      tags: ["C-suite", "Alignment", "Decision-making"],
     },
     {
       number: "05",
-      title: "Board-Level AI Briefing",
+      title: "Strategic Advisory",
       description:
-        "A one-page executive document that synthesizes the AI strategy, priorities, and action plan. Designed to communicate clearly to the board and facilitate decision-making.",
-      tags: ["Executive communication", "Board"],
+        "Ongoing strategic counsel for executive teams navigating AI transformation. We provide the frameworks, perspective, and decision support your leadership needs as priorities evolve.",
+      tags: ["Ongoing", "Advisory", "Executive support"],
     },
   ];
 
@@ -227,73 +228,43 @@ function Industrias() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            AI impact across{" "}
-            <span className="text-primary">every enterprise function</span>
+            AI transformation across{" "}
+            <span className="text-primary">your enterprise</span>
           </h2>
           <p className="text-lg text-foreground/70">
-            AI is reshaping how large organizations operate, compete, and grow.
-            We help you identify and prioritize the highest-impact opportunities
-            across your business.
+            We help large organizations identify where AI creates the greatest
+            value — across functions, industries, and business models.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="bg-background rounded-2xl p-10 border border-foreground/5">
-            <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-2xl mb-6">
-              \u2699
+        <div className="grid md:grid-cols-3 gap-6">
+          {[
+            { title: "Operations", description: "Process automation, supply chain optimization, and intelligent workflows that drive efficiency at scale." },
+            { title: "Customer Experience", description: "Personalization, predictive engagement, and AI-driven service that deepens customer relationships." },
+            { title: "Knowledge Work", description: "Document intelligence, decision support, and productivity tools that amplify your workforce." },
+            { title: "Risk & Compliance", description: "Automated monitoring, anomaly detection, and regulatory intelligence that reduce exposure." },
+            { title: "Product Innovation", description: "AI-powered product development, market sensing, and rapid prototyping for competitive advantage." },
+            { title: "Workforce Productivity", description: "Intelligent resource allocation, talent analytics, and AI-assisted collaboration across teams." },
+          ].map((item) => (
+            <div key={item.title} className="bg-background rounded-2xl p-8 border border-foreground/5">
+              <h3 className="text-lg font-bold text-foreground mb-3">{item.title}</h3>
+              <p className="text-foreground/70 text-sm leading-relaxed">{item.description}</p>
             </div>
-            <h3 className="text-2xl font-bold text-foreground mb-4">Operations & Efficiency</h3>
-            <ul className="space-y-3 text-foreground/70">
-              <li className="flex items-start gap-3">
-                <span className="text-primary mt-1">\u2022</span>
-                Process automation and intelligent workflows
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-primary mt-1">\u2022</span>
-                Predictive maintenance and supply chain optimization
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-primary mt-1">\u2022</span>
-                Document processing and knowledge management
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-primary mt-1">\u2022</span>
-                Quality control and anomaly detection
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-primary mt-1">\u2022</span>
-                Workforce productivity and resource allocation
-              </li>
-            </ul>
-          </div>
-          <div className="bg-background rounded-2xl p-10 border border-foreground/5">
-            <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-2xl mb-6">
-              \u2191
-            </div>
-            <h3 className="text-2xl font-bold text-foreground mb-4">
-              Growth & Competitive Edge
-            </h3>
-            <ul className="space-y-3 text-foreground/70">
-              <li className="flex items-start gap-3">
-                <span className="text-primary mt-1">\u2022</span>
-                Personalized customer experience at scale
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-primary mt-1">\u2022</span>
-                Revenue optimization and dynamic pricing
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-primary mt-1">\u2022</span>
-                Predictive analytics for customer retention
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-primary mt-1">\u2022</span>
-                Market intelligence and competitive monitoring
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-primary mt-1">\u2022</span>
-                New product development and innovation pipelines
-              </li>
-            </ul>
+          ))}
+        </div>
+        <div className="mt-16 max-w-3xl mx-auto text-center">
+          <h3 className="text-2xl font-bold text-foreground mb-4">
+            Industries we serve
+          </h3>
+          <p className="text-foreground/70 mb-8">
+            Our enterprise AI advisory works across sectors. We bring cross-industry
+            perspective to every engagement.
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            {["Healthcare", "Manufacturing", "Retail", "Logistics", "Financial Services", "Telecom", "Energy"].map((industry) => (
+              <span key={industry} className="text-sm font-medium bg-primary/10 text-primary px-4 py-2 rounded-full">
+                {industry}
+              </span>
+            ))}
           </div>
         </div>
       </div>
@@ -308,7 +279,7 @@ function Proceso() {
       title: "Assessment",
       subtitle: "Week 1",
       description:
-        "We evaluate your current AI position: organizational maturity, existing capabilities, competitive exposure, and opportunities specific to your industry.",
+        "We evaluate your current AI position: organizational maturity, existing capabilities, competitive landscape, and the opportunities most relevant to your business.",
     },
     {
       step: "2",
@@ -458,7 +429,7 @@ function Pricing() {
               href="#contacto"
               className="block text-center bg-foreground/5 text-foreground font-semibold py-4 px-8 rounded-full hover:bg-foreground/10 transition"
             >
-              Request information
+              Book a Consultation
             </a>
           </div>
           <div className="bg-primary rounded-2xl p-10 text-white relative overflow-hidden">
@@ -506,7 +477,7 @@ function Pricing() {
               href="#contacto"
               className="block text-center bg-white text-primary font-semibold py-4 px-8 rounded-full hover:bg-white/90 transition"
             >
-              Request strategic sprint
+              Talk to AI Boardroom
             </a>
           </div>
         </div>
@@ -520,22 +491,22 @@ function ParaQuien() {
     {
       role: "CEOs",
       message:
-        "You need a clear view of how AI impacts your business and what decisions to make in the next 90 days to maintain your competitive edge.",
+        "Gain a clear perspective on how AI will reshape your business model and what strategic decisions to make in the next 90 days.",
     },
     {
       role: "Chief Strategy Officers",
       message:
-        "You need a concrete roadmap to integrate AI into corporate strategy, with success metrics and clear priorities.",
+        "Get a concrete, prioritized roadmap for integrating AI into your corporate strategy — with defined metrics and clear next steps.",
     },
     {
       role: "Chief Digital Officers",
       message:
-        "You need to align digital transformation initiatives with high-impact AI use cases and demonstrable ROI.",
+        "Align AI initiatives with the highest-impact use cases across your organization, backed by practical ROI analysis.",
     },
     {
       role: "Transformation Leaders",
       message:
-        "You need the tools and arguments to drive AI adoption at the executive level, with board-ready deliverables.",
+        "Equip yourself with the frameworks, deliverables, and executive alignment needed to drive AI adoption at the leadership level.",
     },
   ];
 
@@ -573,34 +544,34 @@ function ParaQuien() {
 function PorQueAIBoardroom() {
   const razones = [
     {
-      title: "Enterprise AI specialists",
+      title: "Executive-focused approach",
       description:
-        "We are not a generalist consultancy. We understand the challenges, operating models, and competitive dynamics of large organizations.",
+        "Everything we do is designed for senior decision-makers. We speak the language of business strategy, not technical jargon.",
     },
     {
-      title: "Focused on decisions, not technology",
+      title: "Decision-ready deliverables",
       description:
-        "We won\u2019t talk about algorithms. We\u2019ll help you decide where to invest, what to prioritize, and how to measure success.",
+        "Every output is built to go straight to the boardroom. Clear priorities, defined metrics, and actionable recommendations — ready for executive sign-off.",
     },
     {
-      title: "Board-ready deliverables",
+      title: "Fast strategic clarity",
       description:
-        "Everything we produce is designed to be presented directly to the executive committee or the board. No translation needed.",
+        "We deliver a complete AI strategy in weeks, not months. Your leadership team gets the clarity it needs to move forward with confidence.",
     },
     {
-      title: "Results in 2 weeks",
+      title: "Built for leadership teams",
       description:
-        "We don\u2019t run 6-month projects. In 2 weeks you have an actionable roadmap with clear priorities and defined metrics.",
+        "Our process is designed to align your C-suite around AI priorities, investment decisions, and organizational readiness — together.",
     },
     {
-      title: "Senior enterprise experience",
+      title: "Cross-industry perspective",
       description:
-        "We work with large enterprises across industries. We understand the complexities of driving AI strategy at scale.",
+        "We bring insights from multiple industries and enterprise contexts, giving your team a broader view of what AI makes possible.",
     },
     {
-      title: "No conflict of interest",
+      title: "Independent and objective",
       description:
-        "We don\u2019t sell software or implement technology. Our only mission is to help you make the best strategic decisions.",
+        "We don\u2019t sell software or implementation services. Our only goal is to help your leadership team make the best strategic decisions.",
     },
   ];
 
@@ -639,14 +610,14 @@ function CTAFinal() {
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Your executive team needs a{" "}
-              <span className="text-primary">clear AI strategy.</span>
+              Ready to define your{" "}
+              <span className="text-primary">AI strategy?</span>
               <br />
-              Let&apos;s get started.
+              Talk to AI Boardroom.
             </h2>
             <p className="text-lg text-foreground/70 mb-8 leading-relaxed">
-              Fill out the form and we&apos;ll contact you within 24 business
-              hours to schedule a no-commitment introductory call.
+              Fill out the form and we&apos;ll be in touch within 24 business
+              hours to schedule a complimentary executive consultation.
             </p>
             <div className="space-y-4 text-foreground/60 text-sm">
               <div className="flex items-center gap-3">
@@ -701,7 +672,7 @@ function Footer() {
               href="#contacto"
               className="text-secondary hover:text-secondary/80 transition font-medium"
             >
-              Request a workshop
+              Book a Consultation
             </a>
           </div>
         </div>
@@ -712,8 +683,8 @@ function Footer() {
           </div>
         </div>
         <div className="border-t border-white/10 mt-6 pt-6 text-center text-sm text-white/40">
-          &copy; 2026 AI Boardroom. Strategic AI consulting for enterprise
-          leaders.
+          &copy; 2026 AI Boardroom. AI strategy and transformation for
+          enterprise leaders.
         </div>
       </div>
     </footer>
