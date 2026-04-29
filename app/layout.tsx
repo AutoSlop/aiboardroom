@@ -7,9 +7,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AI Boardroom — Consultoría Estratégica de IA para Banca y Seguros",
+  title: "AI Boardroom — Strategic AI Consulting for Enterprise Leaders",
   description:
-    "Workshops ejecutivos y sprints estratégicos de IA para grandes empresas de banca y seguros en New York. Hoja de ruta clara con foco en decisiones de negocio.",
+    "Executive AI workshops and strategic sprints for large enterprises. Clear roadmaps focused on business decisions, not technical noise.",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${inter.className} h-full antialiased`}>
+    <html lang="en" className={`${inter.className} h-full antialiased`}>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

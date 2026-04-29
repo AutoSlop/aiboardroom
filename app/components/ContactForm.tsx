@@ -28,10 +28,10 @@ export default function ContactForm() {
       <div className="bg-white rounded-2xl p-10 text-center shadow-lg">
         <div className="text-4xl mb-4">✓</div>
         <h3 className="text-2xl font-bold text-primary mb-2">
-          Solicitud recibida
+          Request received
         </h3>
         <p className="text-foreground/70">
-          Nos pondremos en contacto contigo en las próximas 24 horas hábiles.
+          We will get back to you within 24 business hours.
         </p>
       </div>
     );
@@ -48,7 +48,7 @@ export default function ContactForm() {
             htmlFor="nombre"
             className="block text-sm font-medium text-foreground/70 mb-1.5"
           >
-            Nombre completo *
+            Full name *
           </label>
           <input
             type="text"
@@ -65,7 +65,7 @@ export default function ContactForm() {
             htmlFor="empresa"
             className="block text-sm font-medium text-foreground/70 mb-1.5"
           >
-            Empresa *
+            Company *
           </label>
           <input
             type="text"
@@ -84,7 +84,7 @@ export default function ContactForm() {
             htmlFor="cargo"
             className="block text-sm font-medium text-foreground/70 mb-1.5"
           >
-            Cargo *
+            Title *
           </label>
           <input
             type="text"
@@ -101,7 +101,7 @@ export default function ContactForm() {
             htmlFor="email"
             className="block text-sm font-medium text-foreground/70 mb-1.5"
           >
-            Email corporativo *
+            Corporate email *
           </label>
           <input
             type="email"
@@ -119,7 +119,7 @@ export default function ContactForm() {
           htmlFor="mensaje"
           className="block text-sm font-medium text-foreground/70 mb-1.5"
         >
-          Mensaje (opcional)
+          Message (optional)
         </label>
         <textarea
           id="mensaje"
@@ -127,7 +127,7 @@ export default function ContactForm() {
           rows={4}
           value={formData.mensaje}
           onChange={handleChange}
-          placeholder="Cuéntanos brevemente tu situación o qué te interesa explorar..."
+          placeholder="Briefly tell us about your situation or what you'd like to explore..."
           className="w-full px-4 py-3 rounded-lg border border-foreground/15 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition resize-none"
         />
       </div>
@@ -135,10 +135,10 @@ export default function ContactForm() {
         type="submit"
         className="w-full bg-primary text-white font-semibold py-4 px-8 rounded-full hover:bg-primary/90 transition cursor-pointer text-lg"
       >
-        Solicitar workshop ejecutivo
+        Request executive workshop
       </button>
       <p className="text-xs text-foreground/50 text-center">
-        Sin compromiso. Respondemos en menos de 24 horas hábiles.
+        No commitment. We respond within 24 business hours.
       </p>
     </form>
   );
